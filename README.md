@@ -8,23 +8,32 @@ The analysis is based on the Kaggle dataset:
 
 🔗 Dataset: https://www.kaggle.com/datasets/bhanupratapbiswas/customer-behavior-analysis
 
-🎯 Objectives
+🎯 Objectives:
+
 Clean and preprocess customer transaction data
+
 Engineer meaningful behavioral features
+
 Segment customers using clustering (K-Means)
+
 Analyze churn patterns across segments
+
 Visualize purchase behavior and trends
+
 Provide actionable business recommendations
 
 🧰 Tech Stack
-Python 🐍
-Pandas
-NumPy
-Matplotlib
-Seaborn
+
+Python 🐍,
+Pandas,
+NumPy,
+Matplotlib,
+Seaborn,
 Scikit-learn (KMeans, StandardScaler)
 
+
 📊 Project Workflow
+
 1. Data Cleaning
 Standardized column names
 Handled missing values
@@ -53,61 +62,49 @@ Total purchase amount
 Returns rate
 Churn rate
 
+
 📈 Key Visualizations
+
 Purchase amount distribution
+
 Customer segmentation scatter plot
+
 Churn distribution across clusters
+
 Return rate by segment
+
 Correlation heatmap
+
 Pairplot of key variables
 
+
 💡 Key Insights
+
 High-spending customers represent the most valuable segment
-Customers with higher return rates are more likely to churn
+
+Customers with higher return rates are more likely to chur
+
 Low purchase behavior strongly correlates with churn
+
 Distinct behavioral clusters exist among customers
+
 Customer segmentation enables targeted marketing strategies
 
+
 📌 Business Recommendations
+
 🎁 Launch loyalty programs for high-value customers
+
 📉 Re-engage churn-risk customers with personalized offers
+
 🔧 Improve product quality to reduce returns
+
 🎯 Use targeted marketing campaigns for each segment
+
 🔄 Implement product recommendation systems for cross-selling
 
-📂 Project Structure
-Customer-Behavior-Analysis/
-│
-├── data/
-│   └── ecommerce_customer_data_custom_ratios.csv
-│
-├── notebook/
-│   └── customer_behavior_analysis.ipynb
-│
-├── images/
-│   └── visualizations.png
-│
-├── README.md
-└── requirements.txt
-
-🚀 How to Run This Project
-1. Clone Repository
-git clone https://github.com/your-username/customer-behavior-analysis.git
-2. Install Dependencies
-pip install -r requirements.txt
-3. Run Notebook
-
-Open Jupyter Notebook or Google Colab and execute:
-
-customer_behavior_analysis.ipynb
-
-📦 Requirements
-pandas
-numpy
-matplotlib
-seaborn
-scikit-learn
 
 👨‍💻 Author
-Ravi (Alfido Tech Project)
+
+Ravi 
 Data Science / Machine Learning Project
